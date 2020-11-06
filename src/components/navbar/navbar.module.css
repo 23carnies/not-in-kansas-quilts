@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=EB+Garamond:wght@400;700&display=swap');
+
+
+.nav {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #285130;
+    padding: 1%;
+}
+
+.nav > * {
+    display: inline-block;
+    margin: 1rem;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #285130;
+}
+
+.nav > a:nth-child(2) {
+    margin-left: auto;
+}
+
+#siteTitle {
+    /* margin: 0; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #285130;
+
+}
