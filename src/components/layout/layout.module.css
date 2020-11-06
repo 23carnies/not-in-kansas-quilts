@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=EB+Garamond:wght@400;700&display=swap');
+
+
+body {
+    background-color: #6e6e6e;
+}
+
+.layout {
+    margin: 3rem auto 0;
+    max-width: 1000px;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh -5rem);
+}
+
+.layout > main {
+    flex-grow: 1;
+}
