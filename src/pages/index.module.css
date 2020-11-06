@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=EB+Garamond:wght@400;700&display=swap');
+
+
+* {
+    font-family: 'EB Garamond', serif;
+}
+.main {
+    padding: 1%;
+}
+
+.dorothy {
+    background-color: #caf7c8;
+    top: 0;
+    z-index: 10;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url('/images/WooColor3Box.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    filter: grayscale(100%);
+    animation-name: greyToColor;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes greyToColor {
+    0% {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);}
+    20% {filter: grayscale(80%); -webkit-filter: grayscale(80%); -moz-filter: grayscale(80%);}
+    40% {filter: grayscale(60%); -webkit-filter: grayscale(60%); -moz-filter: grayscale(60%);}
+    60% {filter: grayscale(40%); -webkit-filter: grayscale(40%); -moz-filter: grayscale(40%);}
+    80% {filter: grayscale(20%); -webkit-filter: grayscale(20%); -moz-filter: grayscale(20%);}
+    100% {filter: grayscale(0%); -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%);}
+}
+
+.lead {
+    font-weight: 400;
+    margin-top: -1.5%;
+}
+
+/* .headline, .lead {
+    background-color: transparent;
+    color: #000;
+    -webkit-text-stroke: 1px rgb(211, 211, 209);
+} */
+
+/* .headline {
+    position: relative;
+    top: 17%;
+    left: 4%;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.lead {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+} */
+
+.photobox {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+    border-bottom: 1px dotted #e6e6e6;
+}
+
+.testimage {
+    width: 250px;
+    border: 2px inset white;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+p {
+    font-size: 18px;
+
+}
