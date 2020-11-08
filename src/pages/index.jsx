@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
+import styles from "./index.module.css"
 
 export default function Home() {
   return (
