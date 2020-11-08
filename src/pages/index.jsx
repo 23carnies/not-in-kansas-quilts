@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
+      <div className={styles.dorothy}></div>
       <Header headerText="Quality memory quilts and designed quilts"/>
       <h2>Made with care by Dorothy in Atlanta, Ga.</h2>
       <p>All of my quilts are made with top quality, 100% cotton materials, machine pieced by me with all the care and skill I can bring
