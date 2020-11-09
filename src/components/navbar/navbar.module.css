@@ -17,6 +17,10 @@
     background-color: #285130;
 }
 
+.nav > a:not(#siteTitle) {
+
+}
+
 .nav > a:nth-child(2) {
     margin-left: auto;
 }
@@ -24,7 +28,7 @@
 #siteTitle {
     /* margin: 0; */
     font-family: 'Dancing Script', cursive;
-    font-size: 28px;
+    font-size: 24px;
     color: #FFF;
     text-decoration: none;
     background-color: #285130;

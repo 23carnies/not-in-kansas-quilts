@@ -11,6 +11,7 @@
 .p {
     background-color: #285130;
     font-size: 1rem;
+    color: white;
 }
 
 .footer > p:nth-child(2) {
