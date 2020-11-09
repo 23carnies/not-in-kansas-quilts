@@ -8,144 +8,144 @@ class DesignedCarousel extends Component {
     state = { 
         designedQuilts: [
             {
-                img: "/images/designed/WooColorOnBedStraight.jpg",
+                img: "https://i.imgur.com/fTNNVRd.jpg",
                 legend: "Wizard of Oz Color",
                 alt: "Wizard of Oz Quilt on Bed"
             },
             {
-                img: "/images/designed/WooSepiaRainbow.jpg",
+                img: "https://i.imgur.com/WwoVYOB.jpg",
                 legend: "Wizard of Oz Sepia",
-                alt: ""
+                alt: "Wizard of Oz Sepia Quilt"
             },
             {
-                img: "/images/designed/WooSepiaDetailFilm.jpg",
+                img: "https://i.imgur.com/rozmNrS.jpg",
                 legend: "Wizard of Oz Sepia Detail",
-                alt: ""
+                alt: "Wizard of Oz Sepia Quilt close up"
             },
             {
-                img: "/images/designed/WaveQuiltOnBanister.jpg",
+                img: "https://i.imgur.com/10iMxfw.jpg",
+                legend: "Wave Quilt",
+                alt: "wave quilt on banister"
+            },
+            {
+                img: "https://i.imgur.com/I3lZCNN.jpg",
                 legend: "",
-                alt: ""
+                alt: "wave quilt close up"
             },
             {
-                img: "/images/designed/WaveQuiltDetail.jpg",
-                legend: "",
-                alt: ""
-            },
-            {
-                img: "/images/designed/RaidersQuiltOnBanister.jpg",
+                img: "https://i.imgur.com/jzvDLDJ.jpg",
                 legend: "Raiders Team Quilt",
                 alt: ""
             },
             {
-                img: "/images/designed/RaidersQuiltDetailBacking.jpg",
+                img: "https://i.imgur.com/xmuajgv.jpg",
                 legend: "",
                 alt: ""
             },
             {
-                img: "/images/designed/SpinnerQuiltOnBedBacking.jpg",
+                img: "https://i.imgur.com/3cKXxHo.jpg",
                 legend: "",
                 alt: ""
             },
             {
-                img: "/images/designed/SpinnerQuiltDetailBlock2.jpg",
+                img: "https://i.imgur.com/UayQNLw.jpg",
                 legend: "",
                 alt: ""
             },
             {
-                img: "/images/designed/eyeSpyFull.JPG",
+                img: "https://i.imgur.com/qxiVoFX.jpg",
                 legend: "Eye Spy Kids' Quilt",
-                alt: ""
+                alt: "Eye Spy Kids' Quilt"
             },
             {
-                img: "/images/designed/eyeSpyPartial.JPG",
+                img: "https://i.imgur.com/msCMHyD.jpg",
+                legend: "",
+                alt: "Eye Spy Kids' Quilt close up"
+            },
+            {
+                img: "https://i.imgur.com/kvbnSvV.jpg",
+                legend: "",
+                alt: "Eye Spy Kids' Quilt close up"
+            },
+            {
+                img: "https://i.imgur.com/O8q48LW.jpg",
+                legend: "Sesame Street",
+                alt: "Sesame Street Quilt on Banister"
+            },
+            {
+                img: "https://i.imgur.com/G0WkKE8.jpg",
+                legend: "",
+                alt: "Sesame Street Quilt close up"
+            },
+            {
+                img: "https://i.imgur.com/D6eS3im.jpg",
+                legend: "Ombre Wave Quilt",
+                alt: "blue and green ombre quilt on bed"
+            },
+            {
+                img: "https://i.imgur.com/0pEcDKP.jpg",
+                legend: "",
+                alt: "blue and green ombre quilt close up"
+            },
+            {
+                img: "https://i.imgur.com/c1FjeOI.jpg",
                 legend: "",
                 alt: ""
             },
             {
-                img: "/images/designed/eyeSpyDetail.JPG",
+                img: "https://i.imgur.com/6sItrtG.jpg",
                 legend: "",
                 alt: ""
             },
             {
-                img: "/images/designed/KidsQuiltSesameOnBanister.jpg",
+                img: "https://i.imgur.com/sRIxj8D.jpg",
                 legend: "",
                 alt: ""
             },
             {
-                img: "/images/designed/KidStreetQuiltDetail.jpg",
+                img: "https://i.imgur.com/fawWFrU.jpg",
                 legend: "",
                 alt: ""
             },
             {
-                img: "/images/designed/OmbreQuiltOnBed.jpg",
-                legend: "",
-                alt: ""
+                img: "https://i.imgur.com/60IkbXR.jpg",
+                legend: "Stained Glass Quilt",
+                alt: "Stained Glass Quilt on Bed"
             },
             {
-                img: "/images/designed/OmbreQuiltDetailBacking.jpg",
+                img: "https://i.imgur.com/9gR6Mye.jpg",
                 legend: "",
-                alt: ""
+                alt: "Close up of stained glass quilt"
             },
             {
-                img: "/images/designed/FallSnowflakeOnBedBacking.jpg",
-                legend: "",
-                alt: ""
+                img: "https://i.imgur.com/fawWFrU.jpg",
+                legend: "Christmas Fringe Quilt",
+                alt: "Christmas quilt"
             },
             {
-                img: "/images/designed/FallSnowflakeDetailPerspective.jpg",
+                img: "https://i.imgur.com/sRIxj8D.jpg",
                 legend: "",
-                alt: ""
+                alt: "Christmas Quilt Detail"
             },
             {
-                img: "/images/designed/PatchworkOnBannister.jpg",
-                legend: "",
-                alt: ""
+                img: "https://i.imgur.com/NgzWWSx.jpg",
+                legend: "Kid's Maze Quilt",
+                alt: "Kid's Maze Quilt"
             },
             {
-                img: "/images/designed/PatchworkDetail.jpg",
+                img: "https://i.imgur.com/AJrnE5E.jpg",
                 legend: "",
-                alt: ""
+                alt: "Kid's Maze Quilt Detail"
             },
             {
-                img: "/images/designed/stainedGlassOnBed.jpg",
-                legend: "",
-                alt: ""
+                img: "https://i.imgur.com/76Duw1U.jpg",
+                legend: "Butterfly Hanging Piece",
+                alt: "Butterfly quilt hanging piece"
             },
             {
-                img: "/images/designed/stainedGlassDetail.jpg",
-                legend: "",
-                alt: ""
-            },
-            {
-                img: "/images/designed/ReindeerQuiltFringeFullOnBed.jpg",
-                legend: "",
-                alt: ""
-            },
-            {
-                img: "/images/designed/ReindeerQuiltFringeDetail.jpg",
-                legend: "",
-                alt: ""
-            },
-            {
-                img: "/images/designed/KidMazeQuiltOnBanister.jpg",
-                legend: "",
-                alt: ""
-            },
-            {
-                img: "/images/designed/KidMazeQuiltBackingDetail.jpg",
-                legend: "",
-                alt: ""
-            },
-            {
-                img: "/images/designed/ButterflyPatchworkHangPiece.jpg",
-                legend: "",
-                alt: ""
-            },
-            {
-                img: "/images/designed/CandleHangPiece.jpg",
-                legend: "",
-                alt: ""
+                img: "[img]https://i.imgur.com/YaL4Ya5.jpg[/img]",
+                legend: "Candle Hanging Piece",
+                alt: "Stained glass looking candle hanging quilt"
             },
         ]
      }

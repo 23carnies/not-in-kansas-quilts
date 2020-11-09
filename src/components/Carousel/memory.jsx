@@ -8,91 +8,85 @@ class MemoryCarousel extends Component {
     state = {
         memoryQuilts: [
             {
-                img: "/images/memory/roadRaceMemoryQuiltWBacking.jpg",
+                img: "https://i.imgur.com/BYdC9He.jpg",
                 legend: "Road Race Memories",
                 alt: "Road Race T-shirt quilt on bed"
             },
             {
-                img: "/images/memory/raceQuiltInscription.jpg",
+                img: "https://i.imgur.com/wFqCQUG.jpg",
                 legend: "",
                 alt: "quilt inscription"
             },
             {
-                img: "/images/memory/WeddingQuiltOnBed.jpg",
+                img: "https://i.imgur.com/iosManE.jpg",
                 legend: "Wedding Guestbook",
                 alt: "Wedding quilt on bed"
             },
             {
-                img: "/images/memory/WeddingQuiltOnBedBacking.jpg",
+                img: "https://i.imgur.com/j5Njxri.jpg",
                 legend: "",
                 alt: "wedding quilt detail "
             },
             {
-                img: "/images/memory/Pastors_Retirement.jpg",
+                img: "https://i.imgur.com/OOVjHy5.jpg",
                 legend: "Pastor's Retirement",
                 alt: "Church T-shirt quilt on bed"
             },
             {
-                img: "/images/memory/Baseball.jpg",
+                img: "https://i.imgur.com/iDj5jfu.jpg",
                 legend: "It's All About Baseball",
                 alt: "Baseball T-shirt quilt on bed"
             },
             {
-                img: "/images/memory/churchMemory.jpg",
+                img: "https://i.imgur.com/BzgcB8u.jpg",
                 legend: "Church Memories",
                 alt: "Church T-shirt quilt on bed"
             },
             {
-                img: "/images/memory/Graduation_gift.jpg",
+                img: "https://i.imgur.com/C8J7AXI.jpg",
                 legend: "College Graduation",
                 alt: "Graduation T-shirt quilt on bed"
             },
             {
-                img: "/images/memory/ABrothers-favorite-things.jpg",
+                img: "https://i.imgur.com/KeN2m4C.jpg",
                 legend: "Brother's Favorite Things",
                 alt: "T-shirt quilt on bed"
             },
             {
-                img: "/images/memory/2greekMemoryFull.jpg",
+                img: "https://i.imgur.com/6zRrcfS.jpg",
                 legend: "Greek Memories",
                 alt: "college T-shirt quilt on bed"
             },
             {
-                img: "/images/memory/2greekMemoryClose.jpg",
+                img: "https://i.imgur.com/h1vhxkD.jpg",
                 legend: "",
                 alt: "college T-shirt quilt detail"
             },
             {
-                img: "/images/memory/mothersClothesDouble.jpg",
+                img: "https://i.imgur.com/h1meqoO.jpg",
                 legend: "Mother's Clothes for Three Sisters",
                 alt: "two quilts made from woman's clothing"
             },
             {
-                img: "/images/memory/mothersClothesFor3Sisters.jpg",
+                img: "https://i.imgur.com/ekILVUs.jpg",
                 legend: "Mother's Clothes for Three Sisters",
                 alt: "Quilt made from woman's clothing"
             },
             {
-                img: "/images/memory/memoriesOfMomAndDad.jpg",
+                img: "https://i.imgur.com/nHhx4lP.jpg",
                 legend: "Memories of Mom and Dad",
                 alt: "Photo quilt"
             },
             {
-                img: "/images/memory/memoriesOfMomAndDadDetail.jpg",
+                img: "https://i.imgur.com/h9qrNK3.jpg",
                 legend: "",
                 alt: "Photo quilt"
             },
             {
-                img: "/images/memory/shirtHenryCo2.jpg",
+                img: "https://i.imgur.com/2rWtFEM.jpg",
                 legend: "Athlete's Memory Quilt",
                 alt: "T-shirt quilt on bed"
-            },
-            {
-                img: "/images/memory/shirtHenryCo4.jpg",
-                legend: "",
-                alt: "T-shirt quilt on bed detail"
-            },
-            
+            }, 
         ]
     }
     render () {
