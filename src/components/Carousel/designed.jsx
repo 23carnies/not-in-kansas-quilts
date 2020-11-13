@@ -119,43 +119,43 @@ class DesignedCarousel extends Component {
                 img: "https://i.imgur.com/60IkbXR.jpg",
                 legend: "Stained Glass Quilt",
                 alt: "Stained Glass Quilt on Bed",
-                idx: 20
+                idx: 18
             },
             {
                 img: "https://i.imgur.com/9gR6Mye.jpg",
                 legend: "",
                 alt: "Close up of stained glass quilt",
-                idx: 21
+                idx: 19
             },
             {
                 img: "https://i.imgur.com/fawWFrU.jpg",
                 legend: "Christmas Fringe Quilt",
                 alt: "Christmas quilt",
-                idx: 22
+                idx: 20
             },
             {
                 img: "https://i.imgur.com/sRIxj8D.jpg",
                 legend: "",
                 alt: "Christmas Quilt Detail",
-                idx: 23
+                idx: 21
             },
             {
                 img: "https://i.imgur.com/NgzWWSx.jpg",
                 legend: "Kid's Maze Quilt",
                 alt: "Kid's Maze Quilt",
-                idx: 24
+                idx: 22
             },
             {
                 img: "https://i.imgur.com/AJrnE5E.jpg",
                 legend: "",
                 alt: "Kid's Maze Quilt Detail",
-                idx: 25
+                idx: 23
             },
             {
-                img: "[img]https://i.imgur.com/YaL4Ya5.jpg[/img]",
+                img: "https://i.imgur.com/YaL4Ya5.jpg",
                 legend: "Candle Hanging Piece",
                 alt: "Stained glass looking candle hanging quilt",
-                idx: 27
+                idx: 24
             },
         ]
      }
