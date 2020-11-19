@@ -55,12 +55,12 @@ class MemoryCarousel extends Component {
                 alt: "Graduation T-shirt quilt on bed",
                 idx: 7
             },
-            {
-                img: "https://i.imgur.com/KeN2m4C.jpg",
-                legend: "Brother's Favorite Things",
-                alt: "T-shirt quilt on bed",
-                idx: 8
-            },
+            // {
+            //     img: "https://i.imgur.com/KeN2m4C.jpg",
+            //     legend: "Brother's Favorite Things",
+            //     alt: "T-shirt quilt on bed",
+            //     idx: 8
+            // },
             {
                 img: "https://i.imgur.com/6zRrcfS.jpg",
                 legend: "Greek Memories",
