@@ -181,7 +181,7 @@ class DesignedCarousel extends Component {
         return ( 
             <Carousel dynamicHeight={true} autoPlay={true}>
                 {this.state.designedQuilts.map((quilt, idx) => 
-                    <div>
+                    <div className="carousel">
                         key={idx}
                         <img src={quilt.img} alt={quilt.alt}/>
                         <p className="legend">{quilt.legend}</p>

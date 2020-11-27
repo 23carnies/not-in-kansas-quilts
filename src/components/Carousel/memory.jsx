@@ -8,7 +8,7 @@ class MemoryCarousel extends Component {
     state = {
         memoryQuilts: [
             {
-                img: "https://i.imgur.com/BYdC9He.jpg",
+                img: "https://i.imgur.com/BYdC9He.jpg?3",
                 legend: "Road Race Memories",
                 alt: "Road Race T-shirt quilt on bed",
                 idx: 0
@@ -109,7 +109,7 @@ class MemoryCarousel extends Component {
         return (
             <Carousel dynamicHeight={true} autoPlay={true}>
               {this.state.memoryQuilts.map((quilt, idx) => 
-                    <div>
+                    <div className="carousel">
                         key={idx}
                         <img src={quilt.img} alt={quilt.alt}/>
                         <p className="legend">{quilt.legend}</p>

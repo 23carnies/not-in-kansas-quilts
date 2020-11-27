@@ -1,8 +1,9 @@
 import React, { Component, form } from 'react';
-import Layout from '../components/layout'
 import Header from '../components/header'
 import * as emailjs from 'emailjs-com'
 import styles from './index.module.css'
+import NavBar from '../components/navbar';
+import Footer from '../components/footer';
 
 class Contact extends Component {
     state = { 
@@ -49,8 +50,10 @@ class Contact extends Component {
     render() { 
         return ( 
         <>
-            <Layout>
+        <NavBar />
+            <main className={styles.main}>
             <Header headerText="Questions? Get in touch!"/>
+            <p>I'm excited to talk to you about a memory quilt gift, the new design quilt to match your bedroom, or a quilt gift for a baby or child. </p>
             <form className={styles.contactform} onSubmit={this.handleSubmit}>
                 <input type="hidden" name="contact_number" />
                 <label className={styles.label}>Email</label>
@@ -87,7 +90,8 @@ class Contact extends Component {
                 />
                 <input className={styles.button} type="submit" value="Send" />
             </form>
-            </Layout>
+            </main>
+        <Footer />
         </>
          );
     }

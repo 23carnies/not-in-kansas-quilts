@@ -2,14 +2,19 @@
 
 
 .nav {
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
+    width: 100%;
     background-color: #285130;
-    padding: 1%;
 }
 
-.nav > * {
+.wrapper {
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+}
+
+.wrapper > a {
     display: inline-block;
     margin: 1rem;
     color: #FFF;
@@ -17,8 +22,12 @@
     background-color: #285130;
 }
 
-.nav > a:not(#siteTitle) {
+.wrapper > a:nth-child(2){
+    margin-left: 25%;
+}
 
+.wrapper > a:not(#siteTitle) {
+    font-size: 18px;
 }
 
 .nav > a:nth-child(2) {
@@ -33,4 +42,13 @@
     text-decoration: none;
     background-color: #285130;
 
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .wrapper > a:nth-child(2){
+        margin-left: 0;
+    }
 }
