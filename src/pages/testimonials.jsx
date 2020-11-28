@@ -19,9 +19,9 @@ export default function Design() {
                 <strong>-Ellen</strong></p>
             </div>
             <div className={styles.photobox}>
-                <img src="https://i.imgur.com/2rWtFEM.jpg" className={styles.testimage} alt="T-shirt quilt on bed"/>
-                <img src="https://i.imgur.com/oK9k6pt.jpg" className={styles.testimage} alt="Woman standing next to quilt on bed"/>
-                <img src="https://i.imgur.com/3LsIRzP.jpg" className={styles.testimage} alt="Close up of quilt"/>
+                <img src="https://i.imgur.com/2rWtFEM.jpg" className={styles.image} alt="T-shirt quilt on bed"/>
+                <img src="https://i.imgur.com/oK9k6pt.jpg" className={styles.image} alt="Woman standing next to quilt on bed"/>
+                <img src="https://i.imgur.com/3LsIRzP.jpg" className={styles.image} alt="Close up of quilt"/>
             </div>
             <div>
                 <h2>Race T-Shirt Quilt</h2>
@@ -30,9 +30,9 @@ export default function Design() {
             <strong>-Karen</strong></p>
             </div>
             <div className={styles.photobox}>
-                <img src="https://i.imgur.com/17KeUs5.jpg" className={styles.testimage} alt="Tshirt quilt on bed"></img>
-                <img src="https://i.imgur.com/wFqCQUG.jpg" className={styles.testimage} alt="Close up of quilt inscription"></img>
-                <img src="https://i.imgur.com/lOZ2eWm.jpg" className={styles.testimage} alt="Man holding quilt"></img>
+                <img src="https://i.imgur.com/17KeUs5.jpg" className={styles.image} alt="Tshirt quilt on bed"></img>
+                <img src="https://i.imgur.com/wFqCQUG.jpg" className={styles.image} alt="Close up of quilt inscription"></img>
+                <img src="https://i.imgur.com/lOZ2eWm.jpg" className={styles.image} alt="Man holding quilt"></img>
             </div>
             </main>
         <Footer />

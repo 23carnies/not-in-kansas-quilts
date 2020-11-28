@@ -24,9 +24,9 @@ export default function Home() {
             <h3>Let's get started! Contact me <Link to="/contact">here</Link>.</h3>
           </div>
           <div className={styles.photobox}>
-            <img src="https://i.imgur.com/oPj1lK1.jpg" alt="Patchwork quilt design on bed" className={styles.frontImg}/>
-            <img src="https://i.imgur.com/CfrkfSg.jpg" alt="Kid quilt folded on couch" className={styles.frontImg}/>
-            <img src="https://i.imgur.com/Iffb1KD.jpg" alt="Raiders quilt on bed" className={styles.frontImg}/>
+            <img src="https://i.imgur.com/oPj1lK1.jpg" alt="Patchwork quilt design on bed" className={styles.image}/>
+            <img src="https://i.imgur.com/CfrkfSg.jpg" alt="Kid quilt folded on couch" className={styles.image}/>
+            <img src="https://i.imgur.com/Iffb1KD.jpg" alt="Raiders quilt on bed" className={styles.image}/>
           </div>
         </div>
       </main>

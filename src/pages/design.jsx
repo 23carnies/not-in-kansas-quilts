@@ -4,6 +4,7 @@ import Header from '../components/header'
 import DesignedCarousel from '../components/Carousel/designed'
 import NavBar from '../components/navbar'
 import styles from "./index.module.css"
+import Footer from '../components/footer'
 
 
 
@@ -18,6 +19,7 @@ export default function Design() {
             <DesignedCarousel />
             {/* </Layout> */}
             </main>
+        <Footer />
         </>
     )
 }
