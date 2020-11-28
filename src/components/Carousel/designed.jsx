@@ -170,10 +170,22 @@ class DesignedCarousel extends Component {
                 idx: 26
             },
             {
-                img: "https://i.imgur.com/YaL4Ya5.jpg",
+                img: "https://i.imgur.com/YaL4Ya5.jpg?1",
                 legend: "Candle Hanging Piece",
                 alt: "Stained glass looking candle hanging quilt",
                 idx: 27
+            },
+            {
+                img: "https://i.imgur.com/sunjQcW.jpg",
+                legend: "Bordello Pattern",
+                alt: "Bordello pattern quilt on bed",
+                idx: 28
+            },
+            {
+                img: "https://i.imgur.com/a7dLCcN.jpg",
+                legend: "Bordello Pattern Detail",
+                alt: "Bordello pattern quilt close up",
+                idx: 29
             },
         ]
      }

@@ -6,7 +6,8 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(209, 212, 204), rgb(232, 143, 137) 75%)
+    background: linear-gradient(to right, rgb(209, 212, 204), rgba(232, 189, 137, 0.714) 75%);
+    
 }
 
 .main {
@@ -22,7 +23,7 @@ body {
     background-color: #caf7c8;
     top: 0;
     z-index: 10;
-    height: 400px;
+    height: 450px;
     margin: 0 auto;
     background-image: url('https://i.imgur.com/fQx1rrp.jpg');
     background-size: cover;
