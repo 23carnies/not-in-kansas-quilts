@@ -100,10 +100,12 @@ p {
 }
 
 .label {
+    font-size: 20px;
     font-weight: bold;
 }
 
 .input {
+    font-size: 20px;
     border-radius: 8px;
     border: 1.5px inset black;
     width: 50%;
@@ -118,6 +120,7 @@ p {
     border-radius: 8px;
     box-shadow: 1px 2px 3px #caf7c8;
     font-weight: bold;
+    font-size: 20px;
     background-color: #285130;
     color: #caf7c8;
 }
