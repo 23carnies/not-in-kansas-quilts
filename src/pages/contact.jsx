@@ -1,4 +1,4 @@
-import React, { Component, form } from 'react';
+import React from 'react';
 import Header from '../components/header'
 import styles from './index.module.css'
 import NavBar from '../components/navbar';
@@ -16,6 +16,7 @@ export default function ContactUs() {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
   }
 
   return (
@@ -29,34 +30,29 @@ export default function ContactUs() {
             <label className={styles.label}>Email</label>
             <input type="email" 
             className={styles.input}
-            name="email"
-            // value={this.state.email} 
-            // onChange={this.handleChange}
+            name="reply_to"
             placeholder="jane@me.com"
+            required
             />
             <label className={styles.label}>Name</label>
             <input type="text"
             className={styles.input}
-            name="name"
-            // value={this.state.name}
-            // onChange={this.handleChange}
+            name="from_name"
             placeholder="Jane Doe"
+            required
             />
             <label className={styles.label}>Subject</label>
             <input type="text"
             className={styles.input}
             name="subject"
-            // value={this.state.subject}
-            // onChange={this.handleChange}
             placeholder="Subject"
             />
             <label className={styles.label}>Message</label>
             <textarea type="text"
             className={styles.input}
             name="message"
-            // value={this.state.message}
-            // onChange={this.handleChange}
             placeholder="Message"
+            required
             />
             <input className={styles.button} type="submit" value="Send" />
         </form>
